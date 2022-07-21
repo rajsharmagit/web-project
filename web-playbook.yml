@@ -1,6 +1,7 @@
 ---
   - name: web server playbook. 
     hosts: web
+    become: True
     tasks:
       - name: install httpd 
         yum:
