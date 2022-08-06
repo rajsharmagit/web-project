@@ -1,6 +1,6 @@
 ---
   - name: web server playbook. 
-    hosts: web_setup
+    hosts: webserver
     tasks:
       - name: install httpd 
         yum:
